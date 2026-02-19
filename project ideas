@@ -1,24 +1,16 @@
-1) Cat adoption assisstant: My family loves cats, as such we adopt one or two on a regular basis. 
-However, an annoyance that pops up while looking for which cats are available to adopt is that cat shelters aren't centralized.
-You can't just go to a website and type in the cat breed/age/sex/etc. you want and it will show you all available cats near you up for adoptio.n
-As such, the basic idea for this website is to provide something along that line of service.
-The user would give their location and what criteria they are looking for in a cat they want to adopt and the site would find all nearby cat shelters with cats that fit that criteria.
-While this could at base use something like the Google Maps API to handle location tracking, a propietary API would probably be necessary to collect all the cat data
-Probably a web scraping based API, accessing each cat shelter's cat adoption pages for all avialble info. 
-Most cat shelter's will list things like breed (if known), age (approximate if unknown), sex, basic personalities, pictures, etc.
+1) Persoanl Library Management System: A simple persoanl library management site. 
+This would allow the user to input to input the details of their personal library 
+(such as an actual library room within their home, or something basic like a single bookshelf in their bedroom).
+This includes labeling the spaces books are stored (Bookshelf 1, 2, etc. & how many shelves each has for example),
+as well as what books these contain. 
+Each book would have a basic description: Title, Author, Genre, short description, location, typical library info.
+There would be functions to "take out" books from the library, for when a book is removed to be read.
+Also a function to permanently remove the book from the library (whether donated, sold, etc).
+A simple AI-powered external API could be added as a way to get book recommendations.
+Eg. Describing a genre or topic you want to read next and the AI giving a short list of recommendations from the books available 
+(if any match)
 
-2) Youtube Playlist editor: As someone who utilizes Youtube a lot (a free massive repository of entertainment is a great service tbh), the service has some mild annoyances.
-One of the one that grinds my gears the most is the inability for the user to edit a creator's playlist to their personal satisfaction.
-Sometimes you don't like that playlist has been set in the "wrong" order, such as series of podcasts set in reverse chronological order.
-Outside of going through the effort to manually create a new playlist in the correct order one video at a time, there is no easy solution to this problem.
-This website would solve that problem by allowing to request any currently created playlist using Youtube API (free witha quota cost), 
-then editing the playlist on site to a layout of your choosing.
-This includes having things like a button that would automatically reverse order, clicking and dragging videos out of the playlist to then place them in different position or delete them entirely, etc. Perhaps even editing multiple playlists together like concating arrays together.
-The dream would be to then import the newly created playlist back onto Youtube, 
-though how to handle this sort of thing would likely be a massive headache as what channel this would go to is a major question to even begin this step.
-In liue of this simply playing the videos on this site in the same manner as using a playlist on Youtube itself would proably be easier.
-
-3)TTRPG Character Builder: One of my favorite hobbies is playing TTRPGs like D&D with my friends.
+2)TTRPG Character Builder: One of my favorite hobbies is playing TTRPGs like D&D with my friends.
 As someone who plays these games though, building characters form the ground up is one of the biggest barriers of entry that new players experience (it took me 2+ hours with help the first time I had to make a D&D character)
 The goal of this site would effectively build a character sheet for you after asking a few basic questions.
 For example, the D&D 5e version would ask you: What class are you playing? What level? etc.
